@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #8faae1; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 100px;
+  margin: 0;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 330px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+  font-size: 15px;
+}
+
+.input-group {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccd3e0;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus {
+  box-shadow: 0 0 0 1px rgba(79, 141, 245, 0.2);
+}
+
+.btn-primary {
+  background-color: #4f8df5;
+  border: 1px solid black;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  justify-content: center;
+}
+
+.btn-primary:hover {
+  background-color: #3d79d4;
+}
+
+.btn-secondary {
+  background-color: #e0e6f0;
+  border: 1px solid black;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  justify-content: center;
+}
+
+.btn-secondary:hover {
+  background-color: #c9d2e3;
+}
+
+.link-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  background-color: #4f8df5;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid black;
+  font-size: 14px;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.link-button:hover {
+  background-color: #3d79d4;
+}
+
+.welcome {
+  font-weight: bold;
+  color: #4fe144;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+ul {
+  list-style:circle;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 3px 5px;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
